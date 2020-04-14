@@ -1,55 +1,69 @@
+@charset "utf-8";
+/* CSS Document */
 
-body{
-        background-color: #f5f5f7;
+.bg-nav{
+	background-color:#EBDEC5;
+	opacity: 0.5;
+	
+}
+.bg-pic{
+	background: url("../img/tulip.jpg");
+	background-size: cover;
+}
+.jumbo{
+	height: 100vh;
+}
+.thick {
+  font-weight: bold;
+}
+.body{
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	text-align: center;
+background-image: linear-gradient(to top, #9890e3 0%, #b1f4cf 100%);
+	background-attachment: fixed;
+	background-blend-mode: difference;
+	font-family:Baskerville, "Palatino Linotype", Palatino, "Century Schoolbook L", "Times New Roman", "serif";
 }
 
-#wrapper{
-        width: 1000px;
-        margin-left: auto;
-        margin-right: auto;
+.contact-title{
+	margin-top: 100px;
+	color:#000000;
+	text-transform: uppercase;
+	transition: all 4s ease-in-out;
 }
-
-aside{
-        width: 200px;
-        float: left;
-background: #FFF;
-        border-bottom: 2px #1d1d1f;
-        font-family: Helvetica Neue, Helvetica, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif"
+.contact-title h1{
+	font-size: 32px;
+	line-height: 10px;
 }
-
-ul{
-        list-style: none;
-        margin: 0;
-        padding: 0;
-        text-align: center
+.contact-title h2{
+	font-size: 16px;
 }
-li a{
-        text-decoration: none;
-        border-bottom: 2px #1d1d1f;
-        display: block;
-        padding: 10px;
-        color: #000000;
-
+.form{margin-top:auto; transition: all 4s ease-in-out}
+.form-control{
+	width: 70vw;
+	background: rgba(0,0,0,0.00);
+	border: none;
+	outline: none;
+	border-bottom: 1px solid gray;
+	color: #FFF;
+	font-size: 18px;
+	margin-bottom: 20px;
 }
-li a:hover{
-        color: #FFFFFF;
-        background: #1d1d1f;
+.input{height: 45px;}
+form .submit{
+	background: #EBDEC5;
+	border-color:transparent;
+	color:#000000;
+	font-weight: bold;
+	letter-spacing: 3px;
+	height: 50px;
+	margin-top: 10px;
+	opacity: 0.5;
 }
-
-section{
-        width: 788px;
-padding-left: 12px;
-float: left;
-background: #FFFFFF;
-        text-decoration: none;
-        font-family: Helvetica Neue, Helvetica, Gotham, "Helvetica Neue", Helvetica, Arial, "sans-serif";
-        li a{
-                text-decoration: none;
-        }
-}
-footer{
-        margin-top: 20px;
-text-align: center;
-
-        color: #1d1d1f;
+form .submit:hover{
+	background: #EBDEC5;
+	cursor: pointer;
+	
 }
